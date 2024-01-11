@@ -11,12 +11,13 @@ link to CSE15L [Webpage](https://ucsd-cse15l-w24.github.io/index.html)
 >   2. heading 2
 >   3. Image
 ---
-Sample code from 'Hello.java'
-'''
+Sample code from `Hello.java`
+
+```
 public class Hello {
   public static void main(String[] args) throws IOException {
     String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
     System.out.println(content);
   }
-'''
+```
 
