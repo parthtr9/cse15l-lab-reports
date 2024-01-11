@@ -1,8 +1,8 @@
 # CSE15l lab1
 ## Building a github website
 *Using* **Markdown**
-link to CSE15L [Webpage]([http://a.com](https://ucsd-cse15l-w24.github.io/index.html)https://ucsd-cse15l-w24.github.io/index.html).
-![Image]([http://url/a.png](https://ucsd-cse15l-w24.github.io/doodle.jpg)https://ucsd-cse15l-w24.github.io/doodle.jpg) from CSE15L webpage.
+link to CSE15L [Webpage](https://ucsd-cse15l-w24.github.io/index.html)
+![Image](https://ucsd-cse15l-w24.github.io/doodle.jpg) from CSE15L webpage.
 > What I have used so far
 > * Bold
 > * Italics
