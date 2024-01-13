@@ -13,7 +13,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~]$ pwd
    /home
    ```
-   >Takes the user back to the home dierctory.
+   >Takes the user back to the home dierctory because there is no directory specified after the `cd` commmand.
    
 2. Using the command with a path to a directory as an argument:
 
@@ -34,7 +34,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~/lecture1]$ cd Hello.java
    bash: cd: Hello.java: Not a directory
    ```
-   >Gives the user an error "Not a directory".
+   >Gives the user an error "Not a directory" because `cd` command cannot open a file and manipulate it.
 
    ---
 
@@ -81,7 +81,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    clear
    clear
    ```
-   >Terminal gets stuck in a loop and prints whatever the user puts in the input.
+   >Terminal gets stuck in a loop and prints whatever the user puts in the input because no specific file is present in the argument from which the contents can be printed.
 
 2. Using the command with a path to a directory as an argument:
 
@@ -91,7 +91,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~]$ cat lecture1
    cat: lecture1: Is a directory
    ```
-   >Gives the user an error "Is a directory".
+   >Gives the user an error "Is a directory" because `cat` command prints the contents of the argument which cannot be possible for a directory.
 
 3. Using the command with a path to a file as an argument:
   
@@ -110,7 +110,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
        System.out.println(content);
     }
    ```
-   >Prints the content of the argument file.
+   >Prints the content of the argument file. Works as intended, printing all the file content.
 
 ---
 ---
