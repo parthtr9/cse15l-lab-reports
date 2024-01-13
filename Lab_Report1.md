@@ -112,6 +112,9 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    ```
    >Prints the content of the argument file.
 
+---
+---
+
 
 
 
