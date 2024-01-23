@@ -1,5 +1,6 @@
 # Lab Report 1
 Testing different cases with `cd` , `ls` and `cat` commands.
+The working directory is shown by the `pwd` comand in every code block.
 
 ---
 ---
@@ -13,7 +14,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~]$ pwd
    /home
    ```
-   >Takes the user back to the home dierctory because there is no directory specified after the `cd` commmand.
+   >Takes the user back to the home dierctory because there is no directory specified after the `cd` commmand. This is not an error.
    
 2. Using the command with a path to a directory as an argument:
 
@@ -24,7 +25,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~/lecture1]$ pwd
    /home/lecture1
    ```
-   >Takes the user to the specified directory.
+   >Takes the user to the specified directory. This is not an error.
 
 3. Using the command with a path to a file as an argument:
 
@@ -34,7 +35,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~/lecture1]$ cd Hello.java
    bash: cd: Hello.java: Not a directory
    ```
-   >Gives the user an error "Not a directory" because `cd` command cannot open a file and manipulate it.
+   >Gives the user an error "Not a directory" because `cd` command cannot open a file and manipulate it. This is an error.
 
    ---
 
@@ -47,7 +48,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~]$ ls
    lecture1
    ```
-   >Gives the user the list of all the files and directories in the home directory.
+   >Gives the user the list of all the files and directories in the working directory. This is not an error.
 
 2. Using the command with a path to a directory as an argument:
 
@@ -57,7 +58,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~]$ ls lecture1
    Hello.class  Hello.java  messages  README
    ```
-   >Gives the user the list of all the files and directories in the argumnent directory.
+   >Gives the user the list of all the files and directories in the argumnent directory. This is not an error.
 
 3. Using the command with a path to a file as an argument:
   
@@ -67,7 +68,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    [user@sahara ~/lecture1/messages]$ ls en-us.txt
    en-us.txt
    ```
-   >Gives the user the name of the test file.
+   >Gives the user the name of the argument text file. This is not an error.
 
 ---
 
@@ -81,7 +82,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    clear
    clear
    ```
-   >Terminal gets stuck in a loop and prints whatever the user puts in the input because no specific file is present in the argument from which the contents can be printed.
+   >Terminal gets stuck in a loop and prints whatever the user puts in the input because no specific file is present in the argument from which the contents can be printed. This is an error. Using control C helps break out of the loop and get in the working directory again.
 
 2. Using the command with a path to a directory as an argument:
 
@@ -92,7 +93,8 @@ Testing different cases with `cd` , `ls` and `cat` commands.
    cat: lecture1: Is a directory
    ```
    >Gives the user an error "Is a directory" because `cat` command prints the contents of the argument which cannot be possible for a directory.
-
+    This is not an error.
+   
 3. Using the command with a path to a file as an argument:
   
    ```
@@ -110,7 +112,7 @@ Testing different cases with `cd` , `ls` and `cat` commands.
        System.out.println(content);
     }
    ```
-   >Prints the content of the argument file. Works as intended, printing all the file content.
+   >Prints the content of the argument file. Works as intended, printing all the file content. This is not an error.
 
 ---
 ---
