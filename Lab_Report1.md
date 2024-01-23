@@ -82,7 +82,7 @@ The working directory is shown by the `pwd` comand in every code block.
    clear
    clear
    ```
-   >Terminal gets stuck in a loop and prints whatever the user puts in the input because no specific file is present in the argument from which the contents can be printed. This is an error. Using control C helps break out of the loop and get in the working directory again.
+   >Terminal gets stuck in a loop and prints whatever the user puts in the input because no specific file is present in the argument from which the contents can be printed. This is expected behaviour. Using control C helps break out of the loop and get in the working directory again.
 
 2. Using the command with a path to a directory as an argument:
 
@@ -93,7 +93,7 @@ The working directory is shown by the `pwd` comand in every code block.
    cat: lecture1: Is a directory
    ```
    >Gives the user an error "Is a directory" because `cat` command prints the contents of the argument which cannot be possible for a directory.
-    This is not an error.
+    This is an error.
    
 3. Using the command with a path to a file as an argument:
   
