@@ -1,8 +1,8 @@
 # Lab Report 2
 This report shows:
-**Part 1** The code for the ChatServer.java file, followed by two screenshots with the ChatServer file in use.
-**Part 2** Three screenshots shwoing the pubic key, private key and logging into my `ieng6` account without entering password.
-**Part 3** Brief description about the things I have learned in Lab 2 and 3 that I didn't know before.
+ - **Part 1** The code for the ChatServer.java file, followed by two screenshots with the ChatServer file in use.
+ - **Part 2** Three screenshots shwoing the pubic key, private key and logging into my `ieng6` account without entering password.
+ - **Part 3** Brief description about the things I have learned in Lab 2 and 3 that I didn't know before.
 
 ----
 ----
