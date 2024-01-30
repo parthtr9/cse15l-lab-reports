@@ -95,6 +95,6 @@ class ChatServer {
 
 ## Part 3
 
-I learned a lot of things in week 2 and 3 that I did not know before, like the different parts of a url, how to start a remote server and access it, how we can manipulate the url of a server to get different results and construct a code for the desired affect we want in a server.
+I learned a lot of things in week 2 and 3 that I did not know before, like the different parts of a url, different terminal commands and their use, how to start a remote server and access it, how we can manipulate the url of a server to get different results and construct a code for the desired affect we want in a server.
 
  
