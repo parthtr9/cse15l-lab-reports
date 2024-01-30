@@ -1,6 +1,10 @@
 # Lab Report 2
-This report first shows the code for the ChatServer.java file 
+This report first shows the code for the ChatServer.java file, followed by two screenshots with the ChatServer file in use. 
 
+----
+----
+
+## Part 1
 ## Code for the `ChatServer` file:
 ```
 import java.io.IOException;
@@ -46,7 +50,6 @@ class ChatServer {
 ```
 
 ---
----
 
 ## Example 1
 ![Image](ss1.png)
@@ -69,4 +72,29 @@ class ChatServer {
  `"jpolitz: Hello`
 
 `yash: How are you"` because it is concatinating the two outputs together, separated by a new line.
+
+---
+---
+
+## Part 2
+![Image](private_key.png)
+>The absolute path to the private key for my SSH key for logging into my `ieng6` account `patrivedi@ieng6.ucsd.edu` is `/Users/parth/.ssh/ud_rsa`
+
+---
+
+![Image](public_key.png)
+>The absolute path to the public key for your SSH key for logging into `ieng6` account `patrivedi@ieng6.ucsd.edu` is `/home/linux/ieng6/oce/90/patrivedi/.ssh/authorized_keys`
+
+---
+
+![Image](Without_pass.png)
+>Screenshot for logging into my `ieng6` account `patrivedi@ieng6.ucsd.edu` wihtout using the password.
+
+---
+---
+
+## Part 3
+
+I learned a lot of things in week 2 and 3 that I did not know before, like the different parts of a url, how to start a remote server and access it, how we can manipulate the url of a server to get different results and construct a code for the desired affect we want in a server.
+
  
