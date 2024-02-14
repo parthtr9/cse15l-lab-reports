@@ -2,7 +2,7 @@
 ## Bugs
 
 1. A failure-inducing input:
-   > code:
+> code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -12,7 +12,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-   > input:
+> input:
 ```
 @Test
 public void testReversed() {
@@ -22,7 +22,7 @@ public void testReversed() {
 ```
 
 2. An input that doesn't induce a failure:
-    > code:
+> code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -32,7 +32,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-   >input:
+>input:
 
 ```
 @Test
@@ -41,12 +41,13 @@ static int[] reversed(int[] arr) {
     assertArrayEquals(new int[]{1,2,1}, ArrayExamples.reversed(input1));
   }
 ```
+
 3.The symptom:
 <img width="892" alt="Screenshot 2024-02-13 at 4 27 08 PM" src="https://github.com/parthtr9/cse15l-lab-reports/assets/154461332/8129d93d-dcb7-4f4e-9a21-4debe0cc6458">
 
 4.
 
-  >Before:
+>Before:
 ```
     static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -57,7 +58,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-   >After:
+>After:
 ```
      static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -67,6 +68,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+
 The issue was that the newArray was never correctly updated and would return zeros in the entire array. 
 This occurred due to incorrectly placing the reversed values to the original array.
 So correctly changing arr with newArray and vice versa the issue was resolved.
@@ -79,7 +81,7 @@ So correctly changing arr with newArray and vice versa the issue was resolved.
 
 1. List just directories:
 
-   > For `/technical`
+> For `/technical`
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -96,7 +98,7 @@ parth@Parths-MacBook-Air technical % find /Users/parth/Desktop/docsearch/technic
 /Users/parth/Desktop/docsearch/technical/biomed
 /Users/parth/Desktop/docsearch/technical/911report
 ```
-   > For `/technical/government`
+> For `/technical/government`
 ```
 parth@Parths-MacBook-Air technical % pwd 
 /Users/parth/Desktop/docsearch/technical
@@ -116,7 +118,7 @@ parth@Parths-MacBook-Air government % find /Users/parth/Desktop/docsearch/techni
 
 2. Find by content:
 
-   >For `/technical/911report` searching for carry-on:  
+>For `/technical/911report` searching for carry-on:  
 ```
 parth@Parths-MacBook-Air technical % cd 911report 
 parth@Parths-MacBook-Air 911report % pwd 
@@ -136,7 +138,7 @@ parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technic
 
 ```
 
-   >For `/technical/plos` searching for chromosome:
+>For `/technical/plos` searching for chromosome:
 ```
 parth@Parths-MacBook-Air technical % cd plos
 parth@Parths-MacBook-Air plos % pwd
@@ -233,7 +235,7 @@ parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/technical/pl
 
 3.Find files by type:
 
-   >For `/technical/911reports`:
+>For `/technical/911reports`:
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -260,7 +262,7 @@ parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technic
 /Users/parth/Desktop/docsearch/technical/911report/chapter-11.txt
 ```
 
-   >For `/technical/government/alcohol_problems`:
+>For `/technical/government/alcohol_problems`:
 ```
 parth@Parths-MacBook-Air technical % pwd 
 /Users/parth/Desktop/docsearch/technical
@@ -278,7 +280,7 @@ parth@Parths-MacBook-Air alcohol_problems % find /Users/parth/Desktop/docsearch/
 
 4.Find a single file by approximate name:
 
-   >For `/techinical/biomed` finding all txt files starting with cc:
+>For `/techinical/biomed` finding all txt files starting with cc:
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -319,7 +321,7 @@ parth@Parths-MacBook-Air biomed % find /Users/parth/Desktop/docsearch/technical/
 /Users/parth/Desktop/docsearch/technical/biomed/cc343.txt
 ```
 
-   >For `/technical/plos` finding all txt files starting with pmed.001
+>For `/technical/plos` finding all txt files starting with pmed.001
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
