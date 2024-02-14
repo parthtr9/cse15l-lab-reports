@@ -265,7 +265,7 @@ parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technic
 /Users/parth/Desktop/docsearch/technical/911report/chapter-11.txt
 ```
 
->For `/technical/government/alcohol_problems`:
+For `/technical/government/alcohol_problems`:
 ```
 parth@Parths-MacBook-Air technical % pwd 
 /Users/parth/Desktop/docsearch/technical
