@@ -3,7 +3,7 @@
 
 1. A failure-inducing input:
 
-code:
+Code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -13,7 +13,8 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-input:
+Junit test:
+
 ```
 @Test
 public void testReversed() {
@@ -24,7 +25,7 @@ public void testReversed() {
 
 2. An input that doesn't induce a failure:
 
-code:
+Code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -34,7 +35,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-input:
+Junit test:
 
 ```
 @Test
