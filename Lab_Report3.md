@@ -91,7 +91,8 @@ parth@Parths-MacBook-Air technical % pwd
 parth@Parths-MacBook-Air technical % cd government 
 parth@Parths-MacBook-Air government % pwd
 /Users/parth/Desktop/docsearch/technical/government
-parth@Parths-MacBook-Air government % find /Users/parth/Desktop/docsearch/technical/government -type d
+parth@Parths-MacBook-Air government % find /Users/parth/Desktop/docsearch/
+technical/government -type d
 /Users/parth/Desktop/docsearch/technical/government
 /Users/parth/Desktop/docsearch/technical/government/About_LSC
 /Users/parth/Desktop/docsearch/technical/government/Env_Prot_Agen
@@ -110,7 +111,8 @@ For `/technical/911report` searching for carry-on:
 ```
 parth@Parths-MacBook-Air technical % cd 911report 
 parth@Parths-MacBook-Air 911report % pwd 
-parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technical/911report -name "*txt" -exec grep -Hi carry-on {} \;
+parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/
+technical/911report -name "*txt" -exec grep -Hi carry-on {} \;
 /Users/parth/Desktop/docsearch/technical/911report/chapter-13.2.txt:                consequence would have been the screening of their carry-on and checked bags for
 /Users/parth/Desktop/docsearch/technical/911report/chapter-13.3.txt:                secondary screening of their carry-on belongings, and checked baggage. See FAA
 /Users/parth/Desktop/docsearch/technical/911report/chapter-3.txt:                extraordinary screening of their carry-on baggage as had been the case before the
@@ -132,7 +134,8 @@ For `/technical/plos` searching for chromosome:
 parth@Parths-MacBook-Air technical % cd plos
 parth@Parths-MacBook-Air plos % pwd
 /Users/parth/Desktop/docsearch/technical/plos
-parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/technical/plos -name "*txt" -exec grep -Hi chromosome {} \;
+parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/
+technical/plos -name "*txt" -exec grep -Hi chromosome {} \;
 /Users/parth/Desktop/docsearch/technical/plos/journal.pbio.0020347.txt:        portions of the chromosomes are associated with the transgressive variation of interest.
 /Users/parth/Desktop/docsearch/technical/plos/journal.pbio.0020347.txt:        genes or, more correctly, quantitative trait loci (QTLs) map along the chromosomes.
 /Users/parth/Desktop/docsearch/technical/plos/journal.pbio.0020347.txt:        chromosome segment substitution lines, called introgression lines when the donor is a wild
@@ -233,7 +236,8 @@ parth@Parths-MacBook-Air technical % pwd
 parth@Parths-MacBook-Air technical % cd 911report 
 parth@Parths-MacBook-Air 911report % pwd
 /Users/parth/Desktop/docsearch/technical/911report
-parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technical/911report -type f
+parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/
+technical/911report -type f
 /Users/parth/Desktop/docsearch/technical/911report/chapter-13.4.txt
 /Users/parth/Desktop/docsearch/technical/911report/chapter-13.5.txt
 /Users/parth/Desktop/docsearch/technical/911report/chapter-13.1.txt
@@ -262,7 +266,8 @@ parth@Parths-MacBook-Air technical % cd government
 parth@Parths-MacBook-Air government % cd alcohol_problems
 parth@Parths-MacBook-Air alcohol_problems % pwd
 /Users/parth/Desktop/docsearch/technical/government/alcohol_problems
-parth@Parths-MacBook-Air alcohol_problems % find /Users/parth/Desktop/docsearch/technical/government/alcohol_problems -type f
+parth@Parths-MacBook-Air alcohol_problems % find /Users/parth/Desktop/docsearch/
+technical/government/alcohol_problems -type f
 /Users/parth/Desktop/docsearch/technical/government/alcohol_problems/Session2-PDF.txt
 /Users/parth/Desktop/docsearch/technical/government/alcohol_problems/Session3-PDF.txt
 /Users/parth/Desktop/docsearch/technical/government/alcohol_problems/DraftRecom-PDF.txt
@@ -281,7 +286,8 @@ parth@Parths-MacBook-Air technical % pwd
 parth@Parths-MacBook-Air technical % cd biomed 
 parth@Parths-MacBook-Air biomed % pwd
 /Users/parth/Desktop/docsearch/technical/biomed
-parth@Parths-MacBook-Air biomed % find /Users/parth/Desktop/docsearch/technical/biomed -iname "cc*txt"
+parth@Parths-MacBook-Air biomed % find /Users/parth/Desktop/docsearch/
+technical/biomed -iname "cc*txt"
 /Users/parth/Desktop/docsearch/technical/biomed/cc991.txt
 /Users/parth/Desktop/docsearch/technical/biomed/cc4.txt
 /Users/parth/Desktop/docsearch/technical/biomed/cc367.txt
@@ -323,7 +329,8 @@ parth@Parths-MacBook-Air technical % pwd
 parth@Parths-MacBook-Air technical % cd plos 
 parth@Parths-MacBook-Air plos % pwd
 /Users/parth/Desktop/docsearch/technical/plos
-parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/technical/plos -iname "pmed*001*txt"
+parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/
+technical/plos -iname "pmed*001*txt"
 /Users/parth/Desktop/docsearch/technical/plos/pmed.0010039.txt
 /Users/parth/Desktop/docsearch/technical/plos/pmed.0010010.txt
 /Users/parth/Desktop/docsearch/technical/plos/pmed.0010013.txt
