@@ -3,16 +3,6 @@
 
 1. A failure-inducing input:
 
-Code:
-```
-static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
-```
 Junit test:
 
 ```
@@ -24,17 +14,7 @@ public void testReversed() {
 ```
 
 2. An input that doesn't induce a failure:
-
-Code:
-```
-static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
-```
+   
 Junit test:
 
 ```
@@ -83,8 +63,10 @@ So correctly changing arr with newArray and vice versa the issue was resolved.
 ## **Find**
 
 1. List just directories:
+> It is useful for finding just the directories in a workspace.
 
 For `/technical`
+`find /Users/parth/Desktop/docsearch/technical -type d`
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -102,6 +84,7 @@ parth@Parths-MacBook-Air technical % find /Users/parth/Desktop/docsearch/technic
 /Users/parth/Desktop/docsearch/technical/911report
 ```
 For `/technical/government`
+`find /Users/parth/Desktop/docsearch/technical/government -type d`
 ```
 parth@Parths-MacBook-Air technical % pwd 
 /Users/parth/Desktop/docsearch/technical
@@ -120,8 +103,10 @@ parth@Parths-MacBook-Air government % find /Users/parth/Desktop/docsearch/techni
 ---
 
 2. Find by content:
+> It is useful for finding files with a certain word in them. 
 
-For `/technical/911report` searching for carry-on:  
+For `/technical/911report` searching for carry-on:
+`find /Users/parth/Desktop/docsearch/technical/911report -name "*txt" -exec grep -Hi carry-on {} \;`
 ```
 parth@Parths-MacBook-Air technical % cd 911report 
 parth@Parths-MacBook-Air 911report % pwd 
@@ -142,6 +127,7 @@ parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technic
 ```
 
 For `/technical/plos` searching for chromosome:
+`find /Users/parth/Desktop/docsearch/technical/plos -name "*txt" -exec grep -Hi chromosome {} \;`
 ```
 parth@Parths-MacBook-Air technical % cd plos
 parth@Parths-MacBook-Air plos % pwd
@@ -237,8 +223,10 @@ parth@Parths-MacBook-Air plos % find /Users/parth/Desktop/docsearch/technical/pl
 ---
 
 3.Find files by type:
+> It is useful for finding files with certain type in the workspace.
 
 For `/technical/911reports`:
+`find /Users/parth/Desktop/docsearch/technical/911report -type f`
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -266,6 +254,7 @@ parth@Parths-MacBook-Air 911report % find /Users/parth/Desktop/docsearch/technic
 ```
 
 For `/technical/government/alcohol_problems`:
+`find /Users/parth/Desktop/docsearch/technical/government/alcohol_problems -type f`
 ```
 parth@Parths-MacBook-Air technical % pwd 
 /Users/parth/Desktop/docsearch/technical
@@ -282,8 +271,10 @@ parth@Parths-MacBook-Air alcohol_problems % find /Users/parth/Desktop/docsearch/
 ---
 
 4.Find a single file by approximate name:
+> It is useful for finding files with reoccuring names or finding files that you do not remember the full name of.
 
 For `/techinical/biomed` finding all txt files starting with cc:
+`find /Users/parth/Desktop/docsearch/technical/biomed -iname "cc*txt"`
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
@@ -325,6 +316,7 @@ parth@Parths-MacBook-Air biomed % find /Users/parth/Desktop/docsearch/technical/
 ```
 
 For `/technical/plos` finding all txt files starting with pmed.001
+`find /Users/parth/Desktop/docsearch/technical/plos -iname "pmed*001*txt"`
 ```
 parth@Parths-MacBook-Air technical % pwd
 /Users/parth/Desktop/docsearch/technical
