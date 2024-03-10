@@ -46,11 +46,11 @@
 
 
 **Step 9)** Commiting the file into github:
-   <img width="1183" alt="Screenshot 2024-02-27 at 8 19 25 PM" src="https://github.com/parthtr9/cse15l-lab-reports/assets/154461332/75669cf2-cd94-4231-9831-2fcae1ff3e98">
+   <img width="981" alt="image" src="https://github.com/parthtr9/cse15l-lab-reports/assets/154461332/c052dd87-df93-41a5-a5e3-57607c256045">
    ---
    *Key pressed*:
-   `git` `<space>` `add` `L` `<tab>` `<enter>`, `git` `<space>` `commit` `-m` `<space>` `lesgo` `<enter>`
-   > I used the git command `add`to add the `ListExamples.java` file and committed it using the git `commit` command into the repositry using `lesgo` as the commit message.
+   `git` `<space>` `add` `L` `<tab>` `<enter>`, `git` `<space>` `commit` `-m` `<space>` `lesgo` `<enter>`, `git` `<space>` `push`
+   > I used the git command `add`to add the `ListExamples.java` file and committed it using the git `commit` command into the repositry using `lesgo` as the commit message. Then I pushed      > the changes to the repository.
 
 ---
 ---
