@@ -50,7 +50,7 @@
    ---
    *Key pressed*:
    `git` `<space>` `add` `L` `<tab>` `<enter>`, `git` `<space>` `commit` `-m` `<space>` `lesgo` `<enter>`, `git` `<space>` `push`
-   > I used the git command `add`to add the `ListExamples.java` file and committed it using the git `commit` command into the repositry using `lesgo` as the commit message. Then I pushed      > the changes to the repository.
+   > I used the git command `add`to add the `ListExamples.java` file and committed it using the git `commit` command into the repositry using `lesgo` as the commit message. Then I pushed       the changes to the repository.
 
 ---
 ---
