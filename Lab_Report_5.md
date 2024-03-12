@@ -41,11 +41,11 @@ public class ListExamplesTests {
         }
 
 }
-
 ```
 
 
 > This is my code for `ListExamplesTests.java` file
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -96,7 +96,6 @@ class ListExamples {
 
 
 }
-
 ```
 
 
@@ -124,6 +123,7 @@ Thanks for the prompt reply student. I see that there is nothing wrong with your
 
 *Reply* from **student**:
 Ohh yeah I fixed the bug, it was such a silly mistake. Instead of checking if `list2.get(index2)` is greater than `list1.get(index1)`, I mistakenly wrote it the other way, checking if `list1.get(index1)` is greater than `list2.get(index2)`. Now after running the test script both the tests pass.
+
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -149,6 +149,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
     return result;
   }
 ```
+
 > This is the merge method after the fix.
 
 ---
